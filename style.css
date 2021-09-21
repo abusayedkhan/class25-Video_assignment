@@ -476,8 +476,7 @@ ul.our-primary-menu li ul li a{}
 /*  Day 6, Serivces CSS  */
 .services-tab-item {
     border-bottom: 2px solid #ddd;
-    padding-bottom: 20px;
-    margin-bottom: 40px !important;
+    margin-bottom: 30px !important;
 }
 .services-tab-item li{
     flex: 1 1 auto;
@@ -522,4 +521,8 @@ ul.our-primary-menu li ul li a{}
     border-radius: 50%;
     margin-right: 12px;
 
+}
+.services-tab-item .active{
+    border-bottom: 1px solid red;
+    padding-bottom: 30px;
 }
